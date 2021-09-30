@@ -2,8 +2,10 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 5px solid rgb(133, 133, 133);
+    padding: 2%;
 }
 
 .logo-image{
-    width: 150px;
+    width: 11em;
+    height: 3em;
 }

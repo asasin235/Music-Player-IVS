@@ -7,16 +7,13 @@ import Joinroomform from "../../components/JoinRoomForm/joinRoomForm"
 const JoinRoom = () => {
     return (
 
-    <div>
+    <>
             <SecondHeader title="Join Room" />
             <Joinroomform/>
-            </div>
-            
-            // <h1>Coming Soon!</h1>
+            <Link to={'/'}> Go Back</Link>
 
-            // <Link to={'/'}> <Container><Button size='lg' variant ='info'>Go Back</Button></Container></Link>
 
-        
+     </>   
     )
 }
 

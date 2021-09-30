@@ -8,14 +8,14 @@ import {BsEyeFill} from 'react-icons/bs'
 function joinRoomForm(){
 
     return (
-<div className="loginFormPage">
+<div className="loginForm">
         <Container fluid>
           <Row sm={2} xs={1}>
             <Col>
               <h1>Create Room</h1>
             </Col>
             <Col className='d-flex justify-content-end'>
-              <Button size='lg' className='create-room-button'>
+              <Button className='create-room-button'>
                 HOW TO PLAY
               </Button>
             </Col>
@@ -42,6 +42,12 @@ function joinRoomForm(){
 
     
   </Col>
+
+  <div className='create-room-button-div'>
+          <Button className='create-room-button' size='lg' variant='primary'>
+             JOIN ROOM
+          </Button>
+        </div>
 
 </Container>
 </div>

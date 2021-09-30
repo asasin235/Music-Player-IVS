@@ -9,7 +9,7 @@ function SecondHeader  (props) {
             <Link to={'/'}><div>
                 <img src={logo} alt="logo" className="logo-image" />
             </div></Link>
-            <h1><Button variant="success">{props.title}</Button></h1>
+            <h1><Button>{props.title}</Button></h1>
 
         </div>
     );
