@@ -3,7 +3,7 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/randomid', (req, res) => {
+app.get('/', (req, res) => {
     var result           = '';
     var length           = 6;
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -12,8 +12,8 @@ app.get('/randomid', (req, res) => {
       result += characters.charAt(Math.floor(Math.random() * 
  charactersLength));
    }
-   const jsonresult = [{key: result}]
-   res.send(jsonresult);
+   const jsonresult = [{"key": result}]
+   res.json({"value": result});
 });
 
 const port = process.env.PORT || 8080;
