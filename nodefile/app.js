@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
       result += characters.charAt(Math.floor(Math.random() * 
  charactersLength));
    }
-   const jsonresult = [{"key": result}]
    res.json({"value": result});
 });
 
