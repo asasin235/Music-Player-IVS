@@ -1,5 +1,4 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
-import Participants from '../Participants/Participants';
 import Textarea from '../TextArea/TextArea';
 import './JoinRoomForm.css'
 import {BsEyeFill} from 'react-icons/bs'
